@@ -209,6 +209,3 @@ def download():
         headers={"Content-Disposition": "attachment;filename={}".format(key)}
     )
 
-
-if __name__ == "__main__":
-    app.run()
